@@ -1,14 +1,11 @@
 "use client"
 
 import { useState } from "react"
-import Image from "next/image"
 import { ChevronLeft, ChevronRight, Star } from "lucide-react"
 
 interface Testimonial {
     id: number
     name: string
-    location: string
-    image: string
     rating: number
     text: string
 }
@@ -17,19 +14,15 @@ export default function Testimonials() {
     const testimonials: Testimonial[] = [
         {
             id: 1,
-            name: "Ibu Rossie",
-            location: "Pemalang, Indonesia",
-            image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755435664/Screenshot_2025-08-17_at_19-59-13_Sapphire_Griya_Modern_Official_Perumahan_Tegal_Slawi_Brebes_sapphiregriyamodern_Instagram_photos_and_videos_t4hycn.png",
+            name: "Indra Praja",
             rating: 5,
-            text: "Saya sangat senang dengan pengalaman membeli rumah di Sapphire Pemalang. Tim marketing sangat membantu dan ramah. Prosesnya cepat dan mudah. Saya merasa sangat puas dengan rumah yang saya beli. Terima kasih Sapphire Grup!",
+            text: "Bagus perumahannya, langsung ketemu jalan lingkar, kawasannya asri, recommended buat hunian.",
         },
         {
             id: 2,
-            name: "Bapak Handy",
-            location: "Pemalang, Indonesia",
-            image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755435663/Screenshot_2025-08-17_at_20-00-42_Sapphire_Griya_Modern_Official_Perumahan_Tegal_Slawi_Brebes_sapphiregriyamodern_Instagram_photos_and_videos_ybu2pd.png",
+            name: "Reza",
             rating: 5,
-            text: "Saya sangat puas dengan pelayanan Sapphire di Pemalang. Tim marketing sangat profesional dan membantu saya menemukan rumah yang sesuai dengan kebutuhan keluarga. Lokasi perumahan juga strategis banget. Terima kasih Sapphire Griya Modern!",
+            text: "Jalannya lebar. Dikira harganya mahal ternyata terjangkau banget. Rekomen pokoke.",
         },
 
     ]
@@ -55,17 +48,6 @@ export default function Testimonials() {
 
                 <div className="testimonials-grid">
                     <div>
-                        <div className="testimonials-image-container">
-                            <Image
-                                src={currentTestimonial.image}
-                                alt={`Testimoni dari ${currentTestimonial.name}`}
-                                fill
-                                className="object-cover testimonials-image"
-                            />
-                        </div>
-                    </div>
-
-                    <div>
                         <p className="testimonials-text">{currentTestimonial.text}</p>
                         <div className="testimonials-stars">
                             {Array.from({ length: currentTestimonial.rating }).map((_, i) => (
@@ -74,7 +56,6 @@ export default function Testimonials() {
                         </div>
                         <div>
                             <h3 className="testimonials-name">{currentTestimonial.name}</h3>
-                            <p className="testimonials-location">{currentTestimonial.location}</p>
                         </div>
                     </div>
                 </div>

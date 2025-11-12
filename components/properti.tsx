@@ -391,7 +391,7 @@ export default function Properties() {
 
   const siteplan = {
     id: "siteplan-1",
-    image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761840183/Screenshot_2025-10-30_at_23.00.05_kgodof.avif",
+    image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_1200,h_800,c_fill,f_auto,q_80/v1761840183/Screenshot_2025-10-30_at_23.00.05_kgodof.avif",
     name: "Siteplan Samara Penusupan",
     description:
       "Masterplan perumahan Samara Penusupan yang menampilkan layout, jalan, ruang terbuka hijau, dan fasilitas umum dengan one-gate system untuk keamanan optimal.",
@@ -410,7 +410,7 @@ export default function Properties() {
   }
 
   const location = {
-    embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.877032752823!2d109.2372851!3d-7.4788287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655d0056df3a8d%3A0xd5c257b5e470533!2sSamara%20Pegalongan!5e0!3m2!1sen!2ssg!4v1761759650420!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+    embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.877032752823!2d109.2372851!3d-7.4788287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655d0056df3a8d%3A0xd5c257b5e470533!2sSamara%20Pegalongan!5e0!3m2!1sen!2ssg!4v1761759650420!5m2!1sen!2ssg" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
     name: "Denah Lokasi Samara Penusupan",
     description: "Lokasi strategis di Slawi dengan akses mudah ke berbagai fasilitas pendidikan, kesehatan, pusat perbelanjaan, dan fasilitas publik.",
   }
@@ -829,7 +829,7 @@ export default function Properties() {
                 dangerouslySetInnerHTML={{ __html: location.embed }}
                 style={{
                   width: '100%',
-                  height: '450px',
+                  height: '600px',
                   cursor: 'pointer',
                   borderRadius: '8px',
                   overflow: 'hidden'
