@@ -116,7 +116,7 @@ export default function About() {
                   <li>6 menit ke pusat perbelanjaan dan pasar tradisional</li>
                   <li>3 menit ke Terminal Dukuhsalam Slawi</li>
                   <li>Lingkungan tenang, bebas polusi dan kebisingan lalu lintas kota</li>
-                  <li>Dikelilingi area hijau dan akses dekat ke jalur Tegal–Slawi</li>
+                  <li>Dikelilingi area hijau dan akses dekat ke jalur Tegal–Slawi.</li>
                 </ul>
 
                 <h3 className="modal-subtitle">Fasilitas Premium</h3>
