@@ -17,18 +17,18 @@ export default function Hero() {
 
   const heroSlides = [
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763272447/37_66_Penusupan_converted_vnrocn.avif",
       title: "Rumah Pertama yang Memudahkan Hidup",
       description:
         "Dekat sekolah, rumah sakit, dan pusat perbelanjaan.",
     },
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763272446/40_77_Penusupan_2_converted_dttvtx.avif",
       title: "Modern & Minimalis untuk Keluarga Muda",
       description: "Desain fungsional yang praktis dan nyaman setiap hari.",
     },
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825387/2_6_-_Photo.jpeg_sbnhu8.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763272447/40_77_Penusupan_converted_uvpe4n.avif",
       title: "Strategis di Tengah Aktivitas Kota",
       description: "Akses cepat ke fasilitas penting tanpa ribet.",
     },

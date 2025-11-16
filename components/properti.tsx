@@ -342,8 +342,8 @@ export default function Properties() {
     {
       id: 1,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763272446/30_60_Penusupan_2_converted_ckptnr.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763272446/30_60_Penusupan_converted_xtqgau.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761840514/Screenshot_2025-10-30_at_23.05.25_dildgd.avif",
       name: "Tipe 30/60",
@@ -358,8 +358,8 @@ export default function Properties() {
     {
       id: 2,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763272447/37_66_Penusupan_converted_vnrocn.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763272446/37_66_Penusupan_2_converted_gnq6qx.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761840514/Screenshot_2025-10-30_at_23.05.33_ho56t0.avif",
       name: "Tipe 37/66",
@@ -374,8 +374,8 @@ export default function Properties() {
     {
       id: 3,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763272447/40_77_Penusupan_converted_uvpe4n.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763272446/40_77_Penusupan_2_converted_dttvtx.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761840514/Screenshot_2025-10-30_at_23.05.38_c36smu.avif",
       name: "Tipe 40/77",
@@ -723,7 +723,7 @@ export default function Properties() {
           <div className="specifications-container">
             <div className="specifications-image">
               <Image
-                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif"
+                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1763272446/30_60_Penusupan_2_converted_ckptnr.avif"
                 alt="Spesifikasi Rumah"
                 width={600}
                 height={800}
@@ -841,7 +841,7 @@ export default function Properties() {
               <p>{location.description}</p>
               <div className="location-button-container">
                 <Link
-                  href="https://maps.app.goo.gl/SamaraSlawi"
+                  href="https://maps.app.goo.gl/DETQxFazGnQ6Ca8D8"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="location-gmaps-button"
@@ -960,9 +960,6 @@ export default function Properties() {
                         </div>
                       </div>
                     </div>
-
-                    <h3 className="modal-subtitle">Harga</h3>
-                    <div className="modal-price">Rp {selectedProperty.price}</div>
 
                     <div className="modal-cta">
                       <Link

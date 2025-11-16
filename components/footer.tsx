@@ -105,7 +105,7 @@ export default function Footer() {
                 <div className="footer-bottom">
                     <div className="footer-logo">
                         <Image
-                            src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1757392355/samaragraha_o9mg9y.png"
+                            src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1757392354/samaragirya_uqdf0k.png"
                             alt="Samara Penusupan Logo"
                             width={80}
                             height={50}
