@@ -27,7 +27,7 @@ export default function About() {
             {/* Container gambar */}
             <div className="about-image-container">
               <Image
-                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1763272446/40_77_Penusupan_2_converted_dttvtx.avif"
+                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764519923/30_60_Penusupan_2_ybcfoq.avif"
                 alt="Samara Penusupan"
                 width={600}
                 height={450}
@@ -42,7 +42,7 @@ export default function About() {
             <div className="about-content">
               <h2 className="about-title">Samara Penusupan</h2>
               <p className="about-description">
-                Berada di kawasan strategis Pangkah, Samara Penusupan menghadirkan perumahan Tegal yang modern, minimalis, dan fungsional untuk keluarga muda. Terletak di Jl. Lingkar Slawi, Kelurahan Penusupan, hunian ini memudahkan akses ke sekolah, rumah sakit, dan pusat perbelanjaan, sehingga aktivitas sehari-hari lebih praktis tanpa meninggalkan ketenangan lingkungan. 
+                Berada di kawasan strategis Pangkah, Samara Penusupan menghadirkan perumahan Tegal yang modern, minimalis, dan fungsional untuk keluarga muda. Terletak di Jl. Lingkar Slawi, Kelurahan Penusupan, hunian ini memudahkan akses ke sekolah, rumah sakit, dan pusat perbelanjaan, sehingga aktivitas sehari-hari lebih praktis tanpa meninggalkan ketenangan lingkungan.
               </p>
               <div>
                 {/* Ubah Link menjadi button untuk membuka modal */}
@@ -59,22 +59,22 @@ export default function About() {
 
           {/* Container statistik */}
           <div className="about-stats-grid">
-            {/* Statistik - Projects Completed */}
+            {/* Statistik - Best Locations */}
             <div className="about-stat-card">
-              <div className="about-stat-value">1</div>
-              <div className="about-stat-label">Perumahan Terbaik di Slawi</div>
+              <div className="about-stat-value">2</div>
+              <div className="about-stat-label">Lokasi Terbaik di Jawa Bagian Utara</div>
             </div>
 
-            {/* Statistik - Awards */}
+            {/* Statistik - Sapphire Families */}
             <div className="about-stat-card">
-              <div className="about-stat-value">200+</div>
-              <div className="about-stat-label">Keluarga Samara</div>
+              <div className="about-stat-value">10.000+</div>
+              <div className="about-stat-label">Keluarga Sapphire</div>
             </div>
 
-            {/* Statistik - Satisfied Clients */}
+            {/* Statistik - Flagship Projects */}
             <div className="about-stat-card">
-              <div className="about-stat-value">24</div>
-              <div className="about-stat-label">Jam Keamanan One-Gate</div>
+              <div className="about-stat-value">2</div>
+              <div className="about-stat-label">Proyek Unggulan</div>
             </div>
 
             {/* Statistik - Years of Experience */}
@@ -97,7 +97,7 @@ export default function About() {
               <h2 className="modal-title">Samara Penusupan</h2>
               <div className="modal-image">
                 <Image
-                  src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1763272447/40_77_Penusupan_converted_uvpe4n.avif"
+                  src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764519924/40_77_Penusupan_vlv9sh.avif"
                   alt="Samara Penusupan"
                   width={700}
                   height={400}

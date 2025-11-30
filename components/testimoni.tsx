@@ -1,11 +1,14 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import { ChevronLeft, ChevronRight, Star } from "lucide-react"
 
 interface Testimonial {
     id: number
     name: string
+    location: string
+    image: string
     rating: number
     text: string
 }
@@ -15,16 +18,19 @@ export default function Testimonials() {
         {
             id: 1,
             name: "Indra Praja",
+            location: "Tegal, Indonesia",
+            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764488270/gambar-2_tpnhat.avif",
             rating: 5,
             text: "Bagus perumahannya, langsung ketemu jalan lingkar, kawasannya asri, recommended buat hunian.",
         },
         {
             id: 2,
             name: "Reza",
+            location: "Tegal, Indonesia",
+            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764488270/gambar-10_btnr0a.avif",
             rating: 5,
             text: "Jalannya lebar. Dikira harganya mahal ternyata terjangkau banget. Rekomen pokoke.",
         },
-
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0)
@@ -48,6 +54,17 @@ export default function Testimonials() {
 
                 <div className="testimonials-grid">
                     <div>
+                        <div className="testimonials-image-container">
+                            <Image
+                                src={currentTestimonial.image}
+                                alt={`Testimoni dari ${currentTestimonial.name}`}
+                                fill
+                                className="object-cover testimonials-image"
+                            />
+                        </div>
+                    </div>
+
+                    <div>
                         <p className="testimonials-text">{currentTestimonial.text}</p>
                         <div className="testimonials-stars">
                             {Array.from({ length: currentTestimonial.rating }).map((_, i) => (
@@ -56,6 +73,7 @@ export default function Testimonials() {
                         </div>
                         <div>
                             <h3 className="testimonials-name">{currentTestimonial.name}</h3>
+                            <p className="testimonials-location">{currentTestimonial.location}</p>
                         </div>
                     </div>
                 </div>
